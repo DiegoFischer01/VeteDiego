@@ -1,3 +1,5 @@
+// Funcion global para generar ID aleatorios y que no se repitan.
+
 const IDsExistentes: number[] = [];
 
 export function generarID(): number {
