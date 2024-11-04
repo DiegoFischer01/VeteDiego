@@ -13,7 +13,7 @@ const clienteJuan = new Cliente("Juan", "2284-345678", [
 
 console.log(clienteJuan);
 
-console.log(clienteJuan.getId());
+clienteJuan.getId();
 
 const Diego = new Cliente ("Diego Fischer", "2284-507340",[{nombre:"Ciri", especie:"gato"}]);
 console.log(Diego);
