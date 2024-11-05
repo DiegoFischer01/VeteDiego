@@ -10,7 +10,7 @@ export class Cliente {
     mascotas: Mascota[];
 
     constructor(nombre: string, telefono: string, nombresMascotas: { nombre: string, especie: string }[]) {
-        this.id = generarID(); // Usamos la función importada
+        this.id = generarID(); // Usamos la función importada // Puede ser una class o una interface.
         this.nombre = nombre;
         this.telefono = telefono;
         this.visitas = 0;
